@@ -11,7 +11,7 @@ This repository focuses on converting datasets from public resources into proteo
 ## Output:
 **WT_mutated_with_variant.fasta**: .fasta file that holds the WT forward & reversed sequences, and forward & reversed sequences for mutations. The sequences are altered to hold the mutation. 
 
-### Structure of headers are identified as such:
+#### Structure of headers are identified as such:
 > sp_VariantTag_Fwd/Rev | Uniprot ID | Organism (OS)  Gene Name (GN)
 
 **WT_mutated_output.csv**: Writes a CSV containing the original and mutated sequences. 
