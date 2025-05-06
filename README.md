@@ -6,7 +6,8 @@ This repository focuses on converting datasets from public resources into proteo
 **WT_og.csv file:** List of BRAF variants. 
 
 Columns are as such:
-<img width="819" alt="Screenshot 2025-05-05 at 8 05 21 PM" src="https://github.com/user-attachments/assets/7580096a-6ef9-4fa4-93b7-5bd09efa141b" />
+
+<img width="1440" alt="Screenshot 2025-05-05 at 8 09 14 PM" src="https://github.com/user-attachments/assets/3474d405-0d7d-47de-b7b4-9e1b5db9d439" />
 
 ## Code:
 **Variant_Fasta_Conversion.Rmd**: This R Markdown script processes a CSV file containing wild-type (WT) protein sequences and corresponding mutations to generate mutated sequences and their reverse complements. It loads/reads required libraries. For each entry, it parses mutation descriptions (e.g., A333N), verifies the wild-type residue, and substitutes the new amino acid at the specified position. Both WT and mutated sequences are then reversed. The code then creates FASTA headers for both forward and reverse sequences, including special handling for WT sequences (labeled separately).
