@@ -2,7 +2,7 @@
 
 This repository focuses on converting datasets from public resources into proteomic, search-compatible FASTA format. This is a building step to generate custom variant-containing FASTA databases. 
 
-[![Neaam's GitHub stats](https://github-readme-stats.vercel.app/api?username=ndaw456)](https://github.com/ndaw456/github-readme-stats)
+[![Neaam's GitHub stats](https://github-readme-stats.vercel.app/api?username=ndaw365)](https://github.com/ndaw365/github-readme-stats)
 
 ## Input:
 **WT_og.csv file:** List of BRAF variants. 
