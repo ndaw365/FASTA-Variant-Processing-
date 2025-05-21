@@ -16,7 +16,7 @@ Columns are as such:
 **WT_mutated_with_variant.fasta**: .fasta file that holds the WT forward & reversed sequences, and forward & reversed sequences for mutations. The sequences are altered to hold the mutation. 
 
 #### Structure of headers are identified as such:
-> sp_VariantTag_Fwd/Rev | Uniprot ID | Organism (OS)  Gene Name (GN)
+> Fwd/Rev_spVariantTag | Uniprot ID | Organism (OS)  Gene Name (GN)
 
 **WT_mutated_output.csv**: Writes a CSV containing the original and mutated sequences. 
 Columns highlight protein sequence, variant tag, position of mutation, mutation, mutated sequences, etc. 
